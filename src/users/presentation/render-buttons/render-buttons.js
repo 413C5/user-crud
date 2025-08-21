@@ -1,5 +1,5 @@
-import usersStore from '../../store/users-store';
-import { renderTable } from '../render-table/render-table';
+import usersStore from '../../store/users-store.js';
+import { renderTable } from '../render-table/render-table.js';
 import './render-buttons.css'
 
 

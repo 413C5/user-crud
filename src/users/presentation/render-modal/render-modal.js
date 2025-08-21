@@ -1,7 +1,7 @@
-import { User } from '../../models/User';
+import { User } from '../../models/User.js';
 import './render-modal.css';
 import modalHtml from './render-modal.html?raw';
-import { getUserById } from '../../use-cases/get-user-by-id';
+import { getUserById } from '../../use-cases/get-user-by-id.js';
 
 let modal;
 let form;

@@ -1,5 +1,5 @@
-import { localhostUserToModel } from "../mappers/localhost-user.mapper";
-import { User } from "../models/User";
+import { localhostUserToModel } from "../mappers/localhost-user.mapper.js";
+import { User } from "../models/User.js";
 
 
 /**

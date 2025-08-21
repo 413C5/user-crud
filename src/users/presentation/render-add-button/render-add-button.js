@@ -1,4 +1,4 @@
-import { showModal } from '../render-modal/render-modal';
+import { showModal } from '../render-modal/render-modal.js';
 import './render-add-button.css';
 
 /**

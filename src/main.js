@@ -1,5 +1,5 @@
 import './style.css'
-import { UsersApp } from './users/users-app';
+import { UsersApp } from './users/users-app.js';
 
 document.querySelector('#app').innerHTML = `
   <div>

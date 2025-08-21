@@ -1,7 +1,7 @@
 import './render-table.css';
-import usersStore from '../../store/users-store';
-import { showModal } from '../render-modal/render-modal';
-import { deleteUserById } from '../../use-cases/delete-user-by-id';
+import usersStore from '../../store/users-store.js';
+import { showModal } from '../render-modal/render-modal.js';
+import { deleteUserById } from '../../use-cases/delete-user-by-id.js';
 
 //Se crea la variable para mantenerla en memoria;
 let table;
