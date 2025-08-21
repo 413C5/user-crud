@@ -40,7 +40,7 @@ const updateUser = async (user) => {
     });
 
     const updatedUser = await res.json();
-    console.log({ updatedUser });
+    //console.log({ updatedUser });
 
     return updatedUser;
 }
@@ -59,7 +59,7 @@ const createUser = async (user) => {
     });
 
     const newUser = await res.json();
-    console.log({ newUser });
+    //console.log({ newUser });
 
     return newUser;
 }

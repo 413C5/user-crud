@@ -11,7 +11,7 @@ export const deleteUserById = async (id) => {
     });
 
     const deleteResult = await res.json();
-    console.log({ deleteResult });
+    //console.log({ deleteResult });
 
     return true;
 }
