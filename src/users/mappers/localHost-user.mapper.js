@@ -1,4 +1,4 @@
-import { User } from "../models/user";
+import { User } from "../models/User";
 
 // Recibe a como se encuentra en el JSON y devuelve una instancia del modelo
 /**

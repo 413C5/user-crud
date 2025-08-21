@@ -1,4 +1,4 @@
-import { User } from '../../models/user';
+import { User } from '../../models/User';
 import './render-modal.css';
 import modalHtml from './render-modal.html?raw';
 import { getUserById } from '../../use-cases/get-user-by-id';
